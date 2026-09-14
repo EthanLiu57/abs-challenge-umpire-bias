@@ -37,7 +37,7 @@ exhausted team on genuinely borderline pitches.
 ## Pipeline
 
 | Step | File | What it does |
-|---||---||---|
+|---|---|---|
 | 01 | `01_get_schedule.py` | Pull 2026 schedule + home-plate umpire per game |
 | 02 | `02_get_pbp_events.py` | Pull pitch-by-pitch events + raw challenge/review blocks |
 | 03 | `03_enrich_pitch_context.py` | Add count, outs, base-runner state from cached raw JSON |
